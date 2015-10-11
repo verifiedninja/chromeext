@@ -1,2 +1,3 @@
-# Verified.ninja Chrome Extension
-Verified.ninja Chrome Extension - Photo Verification for Online Dating
+# Webmod
+
+Verified.ninja is a plugin that shows online dating profiles with verified photos.

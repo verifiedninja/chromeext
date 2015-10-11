@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <title>Verified.ninja for Chrome</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+	
+	<link rel="stylesheet" type="text/css" href="/static/css/normalize3.0.0.min.css?1439863639" />
+	<link rel="stylesheet" type="text/css" href="/static/css/foundation.css?1439863639" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,bold,italic" />
+	<link rel="stylesheet" type="text/css" href="/static/css/global.css?1440975239" />
+	
+	<script type="text/javascript" src="/static/js/modernizr2.7.1.min.js?1439863639"></script>
+	
+    <style type="text/css">
+        body {
+            background-color: #ffffff;
+            font-family: Helvetica, Arial, Serif;
+			margin: 0;
+        }
+		/*.row {
+			margin: 1rem;
+		}*/
+        input, button {
+            border-radius: 4px;
+            padding: 5px;
+            border: 1px solid #cccccc;
+        }
+		button {
+			background: #ffffff;
+			font-weight: bold;
+		}
+        input {
+            width: 300px;
+        }
+        td {
+            padding: 5px;
+        }
+        td:first-child {
+            text-align: right;
+            font-weight: bold;
+        }
+        #message {
+            color: blue;
+        }
+		.hideit {
+			display: none;
+		}
+    </style>
+</head>
+<body>
+
+	<nav class="top-bar" data-topbar>
+		<ul class="title-area">
+			<li class="name">
+				<h1><a href=""><img src="/static/images/32/verifiedninja32.png" style="margin-right: .5rem;"> Verified.ninja</a></h1>
+			</li>
+			<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+		</ul>
+		<section class="top-bar-section">
+	
+		<ul class="right">
+			<li><a href="https://verified.ninja/verify">Verify a User</a></li>
+			<li><a href="https://verified.ninja/about">About</a></li>
+		</ul>
+		</section>
+	</nav>
+
+
+	<div class="row">
+		<div class="large-12 columns">
+			<h1>Verified.ninja Chrome Plugin</h1>
+			<p>Chrome plugin last updated: 9/4/2015</p>
+	
+			<h2>Follow these Steps to Activate the Plugin</h2>
+			<p>Once you complete these steps, you won't see this screen anymore.</p>
+			<ol>
+				<li>Login to your account at: <a href="https://verified.ninja/" target="_blank">https://verified.ninja</a></li>
+				<li>Click the <strong>Sync</strong> button below.</li>
+			</ol>
+
+			<button id="sync_button" class="button">Sync</button>
+			
+			<p id="done_note" class="hideit">The chrome plugin is synced! You may now close this window 
+			and navigate to the dating websites to see who is a Verified.ninja <img src="/static/images/16/greenninja16.png">
+			and who is not <img src="/static/images/16/redninja16.png">.</p>
+			
+			<p id="error_note" class="hideit">The chrome plugin could not be synced. Please make sure you are logged into https://verified.ninja in a separate tab.</p>
+			
+			<hr>
+			
+			<h2>What is Verified.ninja?</h2>
+			<p>Verified.ninja allows people on dating websites to use 
+			our team to verify appearances. We make 
+			sure everyone on our website actually looks like their photos on dating websites. 
+			Once we verify multiple photos, we give our <strong>Verified.ninja</strong> status which makes
+			sorting through dating profile photos much easier for you.</p>
+			
+			<h2>What does this Verified.ninja Chrome plugin do?</h2>
+			<p>This plugin will automatically scan the pages of the dating website you are visiting and tell you which users
+			are a Verified.ninja by adding the green Verified.ninja icon <img src="/static/images/16/greenninja16.png"> next to each username!
+			This plugin will also add a red icon <img src="/static/images/16/redninja16.png"> next to their users that are NOT a Verified.ninja.</p>
+		
+			<h2>What sites does this Chrome plugin work on?</h2>
+			<p>We currently support these dating websites:</p>
+			<ul>
+			<li><a href="http://www.okcupid.com/">OKCupid</a></li>
+			<li><a href="http://www.christianmingle.com/">ChristianMingle</a></li>
+			</ul>
+			
+			<footer>
+			  <hr>
+			  <p class="text-center">&#169; Verified.ninja</p>
+			</footer>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="/static/js/jquery1.11.0.min.js?1439863639"></script>
+	<script type="text/javascript" src="/static/js/underscore-min-1.7.0.js?1439863639"></script>
+	<script type="text/javascript" src="/static/js/foundation.js?1439863639"></script>
+	<script type="text/javascript" src="/static/js/initial.js"></script>
+</body>
+</html>

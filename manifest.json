@@ -1,0 +1,37 @@
+{
+	"name": "Verified.ninja",
+	"version": "1.1",
+	"description": "Photo Verification for Online Dating.",
+	"browser_action": {
+		"default_icon": "static/images/128/verifiedninja128.png",
+		"default_title": "Verified.ninja"
+	},
+	"icons": {
+		"128": "static/images/128/verifiedninja128.png"
+	},
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*",
+		"contextMenus"
+	],
+	"options_page": "options.html",
+	"background": {
+		"scripts": [
+			"static/js/background.js"
+		]
+	},
+	"content_scripts": [{
+		"matches": [
+			"http://*/*",
+			"https://*/*"
+		],
+		"js": [
+			"static/js/jquery-2.1.4.min.js",
+			"static/js/okcupid.js",
+			"static/js/christianmingle.js",
+			"static/js/content_script.js"
+		]
+	}],
+	"manifest_version": 2
+}

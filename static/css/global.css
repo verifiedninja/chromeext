@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+  line-height: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin-top: 1.25rem;
+}
+
+a, .top-bar-section ul li > a {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+  outline: none;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.user-table {
+	width: 100%;
+}
+
+.user-table td,
+.user-table th {
+	text-align: center;
+}
+
+.user-table .unverified {
+	background-color: #008CBA;
+    border-color: #007095;
+    color: #FFFFFF;
+}
+
+/* Notification Styles */
+#flash-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  margin: 0;
+}
+
+.alert-box-fixed {
+  margin: 0 .5rem .5rem 0;
+}
+
+/* Verification box */
+.verification-box {
+    color: #008CBA;
+	margin-bottom: .5rem;
+}
+
+.verification-box.success {
+    color: #43AC6A;
+}
+
+.verification-box.alert {
+    color: #f04124;
+}
+
+.verification-box.secondary {
+    color: #e7e7e7;
+}
+
+/* Front Page */
+
+.front-buttons {
+	text-align: center;
+	margin-top: 1.25rem;
+}
+
+.front-buttons a {
+	margin: 0 1rem;
+}
+
+.front-banner {
+	font-size: 5rem;
+	line-height: 5rem;
+    margin: 14rem 0 0 4rem;
+    max-width: 35%;
+	
+	text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front-banner-sub {
+   margin-top: 1rem;
+   font-size: 2.5rem;
+   line-height: 3rem;
+}
+
+/* Small screens */
+@media only screen {
+	.front-banner {
+		font-size: 1.5rem;
+	    line-height: 1.5rem;
+	    margin: 4rem 0 0 1rem;
+	}
+	
+	.front-banner-sub {
+		margin-top: 1rem;
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+}
+
+/* Medium screens */
+@media only screen and (max-width: 480px) {
+	
+	.front-image {
+		opacity: .1;
+	}
+	
+	.front-banner {
+		font-size: 1.5rem;
+	    line-height: 1.5rem;
+	    margin: 4rem 1rem 0 1rem;
+		max-width: none;
+	}
+	
+	.front-banner-sub {
+		margin-top: 1rem;
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+	
+	.front-buttons a {
+		margin: 1rem 1rem;
+	}
+}
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) {
+	.front-banner {
+		font-size: 1.75rem;
+		line-height: 1.75rem;
+	    margin: 7rem 0 0 2rem;
+	}
+	
+	.front-banner-sub {
+		margin-top: 1rem;
+		font-size: 1.25rem;
+		line-height: 1.25rem;
+	}
+}
+
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+	.front-banner {
+		font-size: 2.5rem;
+		line-height: 2.5rem;
+	    margin: 10rem 0 0 4rem;
+	    max-width: 35%;
+	}
+	
+	.front-banner-sub {
+	   margin-top: 1rem;
+	   font-size: 1.5rem;
+	   line-height: 2rem;
+	}	
+} 
+
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 95.063em) {
+	.front-banner {
+		font-size: 3.5rem;
+		line-height: 3.5rem;
+	    margin: 12rem 0 0 4rem;
+	    max-width: 35%;
+	}
+	
+	.front-banner-sub {
+	   margin-top: 1rem;
+	   font-size: 2.5rem;
+	   line-height: 3rem;
+	}	
+} 
+
+/* min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 120.063em) {
+
+} 
